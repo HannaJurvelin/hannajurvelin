@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Hienoa graafista suunnittelua"
+date:   2019-01-13 17:01:17 +0200
+categories: graphicdesign
+---
+
+moi
