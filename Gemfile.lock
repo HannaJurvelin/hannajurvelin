@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.5.2)
+    addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.4)
@@ -71,4 +71,4 @@ DEPENDENCIES
   tzinfo-data
 
 BUNDLED WITH
-   1.16.3
+   2.0.1
