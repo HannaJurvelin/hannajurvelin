@@ -117,3 +117,34 @@ html, body, .brandName{
 .modal-title{
     font-family: 'TTMoonsBold';
 }
+
+p#cf7_controls {
+    text-align:center;
+  }
+  #cf7_controls span {
+    padding-right:2em;
+    cursor:pointer;
+  }
+  #cf7 {
+    position:relative;
+    height:281px;
+    width:450px;
+    margin:0 auto 10px;
+  }
+  #cf7 img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease;
+    -moz-transition: opacity 1s ease;
+    -o-transition: opacity 1s ease;
+    transition: opacity 1s ease;
+    opacity:0;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+  }
+  
+  #cf7 img.opaque {
+    opacity:1;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=1);
+  }
