@@ -148,3 +148,23 @@ p#cf7_controls {
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=1);
   }
+
+.carousel-custom{
+    text-align: center;
+    font-family: 'TTMoons';
+}
+
+.carousel-custom h1{
+    font-size: 200px;
+    padding: 200px 25px;
+}
+
+.layoutdesign h1{
+    background: #13246B;
+    color: #fff;
+}
+
+.graphicdesign h1{
+    background: #F9DEDF;
+    color: #fff;
+}
