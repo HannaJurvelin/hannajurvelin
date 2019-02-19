@@ -31,14 +31,23 @@
     </a>
 </div>
 
+<div class="container">
 {% for post in site.categories.layoutdesign %}
 {% if post.url %}
 <div class="single_post layoutdesign">
-    <h1>{{ post.title }}</h1>
-    <p>{{post.content}}</p>
-    {% for item in post.images %}
-        <img {% if forloop.first == true %}class='opaque'{% endif %} src="{{site.baseurl}}/images/{{ item }}">
-    {% endfor %}
+    <div class="single_post_top">
+        <div>
+            <h1>{{ post.title }}</h1>
+        </div>
+        <div>
+            <p>{{post.content}}</p>
+        </div>
+    </div>
+    <div class="single_post_bottom">
+        {% for item in post.images %}
+            <img {% if forloop.first == true %}class='opaque'{% endif %} src="{{site.baseurl}}/images/{{ item }}">
+        {% endfor %}
+    </div>
 </div>
 {% endif %}
 {% endfor %}
@@ -82,5 +91,6 @@
 </div>
 {% endif %}
 {% endfor %}
+</div>
 
 {% include footer.html %}

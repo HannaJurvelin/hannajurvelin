@@ -159,12 +159,41 @@ p#cf7_controls {
     padding: 200px 25px;
 }
 
-.layoutdesign h1{
+.carousel-custom .layoutdesign h1{
     background: #13246B;
     color: #fff;
 }
 
-.graphicdesign h1{
+.carousel-custom .graphicdesign h1{
     background: #F9DEDF;
     color: #fff;
+}
+
+.single_post{
+    background: #fff;
+}
+
+.single_post_top{
+    display: flex;
+    padding: 25px;
+}
+
+.single_post_top h1{
+    font-family: 'TTMoonsBold';
+    font-size: 8vw;
+}
+
+.single_post_top p{
+    font-family: 'TTMoons';
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+.single_post_top div{
+    width: 50%;
+}
+
+.single_post_bottom img{
+    width: 100%;
+    padding-right: 25px;
 }
