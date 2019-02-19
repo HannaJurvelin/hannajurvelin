@@ -32,6 +32,9 @@
 <div class="single_post layoutdesign">
     <h1>{{ post.title }}</h1>
     <p>{{post.content}}</p>
+    {% for item in post.images %}
+        <img {% if forloop.first == true %}class='opaque'{% endif %} src="{{site.baseurl}}/images/{{ item }}">
+    {% endfor %}
 </div>
 {% endif %}
 {% endfor %}
