@@ -166,6 +166,16 @@ p#cf7_controls {
 
 .carousel-custom .graphicdesign h1{
     background: #F9DEDF;
+    color: #13246B;
+}
+
+.carousel-custom .art h1{
+    background: #BB9597;
+    color: #fff;
+}
+
+.carousel-custom .uidesign h1{
+    background: #60636F;
     color: #fff;
 }
 
@@ -237,6 +247,11 @@ nav a{
 
 .nav-item a{
     color: #777 !important;
+}
+
+.sticky-top{
+    display: flex;
+    justify-content: space-between;
 }
 
 @media only screen and (max-width: 1275px) {

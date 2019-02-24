@@ -2,8 +2,8 @@
 title: LILLIPUTTO
 layout: post
 categories: graphicdesign
-images:
-- TAS_1.png
-- TAS_2.png
+overlapImages:
+- lilliputto_mockup_1.png
+- lilliputto_mockup_2.png
 ---
 

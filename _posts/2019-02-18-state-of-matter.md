@@ -3,8 +3,7 @@ title: STATE OF MATTER
 layout: post
 categories: art
 images:
-- TAS_1.png
-- TAS_2.png
+- som_banner.png
 ---
 
 State of Matter is a mobile game by Kaamos Games published for Android and iOS devices in 2016. It’s a 2D-platformer game where you solve puzzles and fight enemies by changing states. The style of the game is very cute and colourful.
