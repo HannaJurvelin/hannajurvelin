@@ -54,10 +54,28 @@
 
 {% for post in site.categories.art %}
 {% if post.url %}
-<div class="single_post games">
+<div class="single_post art">
     <h1>{{ post.title }}</h1>
     <p>{{post.content}}</p>
-    <img class="d-block w-100" src="{{site.baseurl}}/images/{{post.image}}" alt="First slide">
+    {% if post.carouselImages %}
+    <div id="cf7" class="shadow">
+        {% for item in post.carouselImages %}
+        <img {% if forloop.first == true %}class='opaque'{% endif %} src="{{site.baseurl}}/images/{{ item }}">
+        {% endfor %}
+    </div>
+    <p id="cf7_controls">
+        {% for item in post.carouselImages %}
+        <span {% if forloop.first == true %}class="selected"{% endif %} >Image {{ forloop.index }}</span>
+        {% endfor %}
+      </p>
+    {% endif %}
+    {% if post.overlapImages %}
+    <div class="overlapImages">
+        {% for item in post.overlapImages %}
+        <img class="img-fluid {% if forloop.first == true %}top{% else %}bottom{% endif %}" src="{{site.baseurl}}/images/{{ item }}">
+        {% endfor %}
+    </div>
+    {% endif %}
 </div>
 {% endif %}
 {% endfor %}
@@ -84,7 +102,7 @@
 
 {% for post in site.categories.uidesign %}
 {% if post.url %}
-<div class="single_post games">
+<div class="single_post uidesign">
     <h1>{{ post.title }}</h1>
     <p>{{post.content}}</p>
     <img class="d-block w-100" src="{{site.baseurl}}/images/{{post.image}}" alt="First slide">

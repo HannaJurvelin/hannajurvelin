@@ -171,6 +171,7 @@ p#cf7_controls {
 
 .single_post{
     background: #fff;
+    margin: 50px 0;
 }
 
 .single_post_top{
@@ -196,4 +197,19 @@ p#cf7_controls {
 .single_post_bottom img{
     width: 100%;
     padding-right: 25px;
+}
+
+.overlapImages{
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.overlapImages img{
+    width: 15%;
+}
+
+.bottom {
+    bottom: 0;
+    right: 0;
+    position: absolute;
 }

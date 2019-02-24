@@ -1,7 +1,7 @@
 ---
 title: CLEANING SCHEDULE
 layout: post
-categories: ui
+categories: uidesign
 images:
 - TAS_1.png
 - TAS_2.png
