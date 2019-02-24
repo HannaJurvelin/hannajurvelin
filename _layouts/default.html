@@ -53,13 +53,13 @@
         <div id="carousel2" class="carousel carousel-post slide" data-ride="carousel" data-interval="false">
                 <ol class="carousel-indicators">
                     {% for item in post.carouselImages %}
-                    <li data-target="#carouselExampleIndicators" data-slide-to="{{ forloop.index }}" {% if forloop.first == true %}class="active" {% endif %}></li>
+                    <li data-target="#carousel2" data-slide-to="{{ forloop.index }}" {% if forloop.first == true %}class="active" {% endif %}></li>
                     {% endfor %}
                 </ol>
                 <div class="carousel-inner carousel-custom">
                     {% for item in post.carouselImages %}
-                    <div class="carousel-item {% if forloop.first == true %}active{% endif %}">
-                            <img src="{{site.baseurl}}/images/{{ item }}">
+                    <div class="img-fluid carousel-item {% if forloop.first == true %}active{% endif %}">
+                            <img class="img-fluid" src="{{site.baseurl}}/images/{{ item }}">
                     </div>
                     {% endfor %}
                 </div>
