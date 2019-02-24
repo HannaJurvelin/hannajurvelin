@@ -218,3 +218,7 @@ p#cf7_controls {
     right: 0;
     position: absolute;
 }
+
+nav a{
+    font-size: 32px !important;
+}
