@@ -169,6 +169,10 @@ p#cf7_controls {
     color: #fff;
 }
 
+.carousel-post{
+    padding-bottom: 25px;
+}
+
 .single_post{
     background: #fff;
     margin: 50px 0;
@@ -176,7 +180,7 @@ p#cf7_controls {
 
 .single_post_top{
     display: flex;
-    padding: 25px;
+    
 }
 
 .single_post_top h1{
@@ -192,6 +196,7 @@ p#cf7_controls {
 
 .single_post_top div{
     width: 50%;
+    padding: 25px;
 }
 
 .single_post_bottom img{
@@ -205,10 +210,10 @@ p#cf7_controls {
 }
 
 .overlapImages img{
-    width: 15%;
+    width: 55%;
 }
 
-.bottom {
+.overlapImages img:last-child {
     bottom: 0;
     right: 0;
     position: absolute;
