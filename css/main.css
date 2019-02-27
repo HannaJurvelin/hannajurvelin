@@ -251,6 +251,23 @@ nav a{
     justify-content: space-between;
 }
 
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgba(19, 36, 107, 0.5);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    font-family: 'TTMoons';
+    border-radius: 100px;
+  }
+
 @media only screen and (max-width: 1275px) {
     .carousel-custom h1 {
         font-size: 150px;
