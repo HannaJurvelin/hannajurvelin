@@ -27,4 +27,8 @@ $('#carousel').on('slid.bs.carousel', function () {
       $("#cf7_controls span").removeClass("selected");
       $(this).addClass("selected");
     });
+
+    addressStart = 'hanna';
+    addressEnd = 'hannajurvelin.com';
+    $('#contactMail').attr('href','mailto:'+addressStart+'@'+addressEnd);
   });
