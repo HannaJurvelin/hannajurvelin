@@ -6,4 +6,4 @@ images:
 - kaamos_card_mockup.png
 ---
 
-I designed a logo for a Oulu-based game company Kaamos Games in 2015. The inspiration and colour scheme for the logo was inspired by the northern lights. I wanted the logo design to be simple, stylish yet fun.
+I designed a logo for a Oulu-based game company Kaamos Games in 2015. The colour scheme is inspired by the northern sky. I wanted the logo design to be simple, stylish yet striking.
