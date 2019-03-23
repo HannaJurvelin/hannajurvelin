@@ -1,6 +1,6 @@
 body {
     margin:0;
-    background: #E8E8E8;
+    background: #F5F7FA;
 }
 
 article {
@@ -23,6 +23,10 @@ footer {
 
 p, h1 {
     color: #2c3b57;
+}
+
+.navbar{
+    background: #fff;
 }
 
 @font-face {
@@ -251,7 +255,7 @@ nav a{
 }
 
 .nav-item a{
-    color: #777 !important;
+    color: #7B8794 !important;
 }
 
 .sticky-top{
