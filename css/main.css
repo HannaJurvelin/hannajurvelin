@@ -66,11 +66,11 @@ nav{
 }
 
 html, body, .brandName{
-    color: #2c3b57 !important;
+    color: #1F2232 !important;
 }
 
 .activeSection{
-    color: #ffe5e5;
+    color: #E3BAC6;
 }
 
 .topImg{
@@ -169,22 +169,22 @@ p#cf7_controls {
 }
 
 .carousel-custom .layoutdesign h1{
-    background: #13246B;
+    background: #1F2232;
     color: #fff;
 }
 
 .carousel-custom .graphicdesign h1{
-    background: #F9DEDF;
-    color: #13246B;
+    background: #FDE8E9;
+    color: #1F2232;
 }
 
 .carousel-custom .art h1{
-    background: #BB9597;
+    background: #E3BAC6;
     color: #fff;
 }
 
 .carousel-custom .uidesign h1{
-    background: #60636F;
+    background: #ACB0BD;
     color: #fff;
 }
 
@@ -257,7 +257,7 @@ nav a{
 }
 
 .nav-item a{
-    color: #7B8794 !important;
+    color: #ACB0BD !important;
 }
 
 .sticky-top{
@@ -274,11 +274,11 @@ nav a{
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: rgba(19, 36, 107, 0.5);
+    background-color: rgba(#1F2232, 0.7);
     color: white;
     cursor: pointer;
     padding: 15px;
-    font-family: 'TTMoons';
+    font-family: 'Raleway';
     border-radius: 100px;
   }
 
